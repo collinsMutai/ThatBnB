@@ -1,0 +1,40 @@
+<div class="about-section">
+  <div class="image">
+    <img src="../../../assets/images/home-main-slide-4.jpg" alt="" />
+  </div>
+  <div class="text">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tenetur
+      esse, dolores magni necessitatibus officia?
+    </p>
+    <button mat-raised-button color="accent">Get Started</button>
+  </div>
+</div>
+ <h2>Featured BnB's</h2>
+<div class="bnb-section">
+   
+  <mat-card  *ngFor="let rental of rentals">
+    <mat-card-content
+      ><img mat-card-image src="../../../assets/images/home-main-slide-1.jpg" />
+      <mat-card-title>{{rental.title}}</mat-card-title>
+      <mat-card-subtitle>{{rental.description}}</mat-card-subtitle>
+      <mat-card-footer>{{rental.price}}</mat-card-footer></mat-card-content
+    >
+  </mat-card>
+  <!-- <mat-card>
+    <mat-card-content
+      ><img mat-card-image src="../../../assets/images/home-main-slide-2.jpg" />
+      <mat-card-title>Nairobi Condo</mat-card-title>
+      <mat-card-subtitle>23 kilometers away</mat-card-subtitle>
+      <mat-card-footer>$94 Night</mat-card-footer></mat-card-content
+    >
+  </mat-card>
+  <mat-card>
+    <mat-card-content
+      ><img mat-card-image src="../../../assets/images/home-main-slide-3.jpg" />
+      <mat-card-title>Nairobi Condo</mat-card-title>
+      <mat-card-subtitle>23 kilometers away</mat-card-subtitle>
+      <mat-card-footer>$94 Night</mat-card-footer></mat-card-content
+    >
+  </mat-card> -->
+</div>

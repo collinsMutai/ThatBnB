@@ -1,0 +1,43 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 4rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-bottom: 6rem;
+}
+.image {
+  flex: 1;
+}
+.text {
+  flex: 1;
+}
+.text button {
+  width: 150px;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+h2 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+.bnb-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+mat-card {
+  width: 100%;
+}
+img {
+  width: 100%;
+  border-radius: 5px;
+}
